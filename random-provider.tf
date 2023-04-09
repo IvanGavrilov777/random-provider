@@ -12,7 +12,7 @@ resource "random_id" "number1byte" {
 }
 
 output "id" {
-  value = random_id.number1byte.id
+  value = "${random_id.number1byte.id}"
 }
 
   
